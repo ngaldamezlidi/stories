@@ -1,5 +1,6 @@
+/* ESTILOS GENERALES */
 body {
-  padding-top: 80px;
+  padding: 60px 0px;
 }
 
 header {
@@ -9,6 +10,11 @@ header {
   }
 }
 
-.form-control {
-	margin-bottom: 5px;
+/* PÁGINA PRINCIPAL */
+#chapters {
+  margin:0;
+  padding: 0;
+}
+#chapters li {
+  list-style: none;
 }

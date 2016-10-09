@@ -1,7 +1,12 @@
-<h1> Un Título </h1>
-<ul>
-  <li> <%= link_to 'Capítulo 1', chapter1_path %> </li>
-  <li> <%= link_to 'Capítulo 2', chapter2_path %> </li>
-  <li> <%= link_to 'Capítulo 3', chapter3_path %> </li>
-  <li> <%= link_to 'Capítulo 4', chapter4_path %> </li>
-</ul>
+<div class="text-center">
+  <h1> Un Título </h1>
+  <%= image_tag 'raul.jpg' %>
+
+  <h2> Capítulos </h2>
+  <ul id="chapters">
+    <li> <%= link_to 'Capítulo 1', chapter1_path %> </li>
+    <li> <%= link_to 'Capítulo 2', chapter2_path %> </li>
+    <li> <%= link_to 'Capítulo 3', chapter3_path %> </li>
+    <li> <%= link_to 'Capítulo 4', chapter4_path %> </li>
+  </ul>
+</div>
